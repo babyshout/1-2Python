@@ -15,7 +15,7 @@ label1 = Label(window, image=photo)
 label1.bind("<Button>", clickImage)
 
 # TODO expand 는 뭐지?
-# expand 매개변수는 tkinter의 pack() 메서드에서 사용되며,
+# expand 매개변수는 tkinter의 pack.py() 메서드에서 사용되며,
 # 해당 매개변수의 값을 1로 설정하면 위젯이 부모 위젯에 대한 확장(expansion)을 활성화합니다.
 # 이것은 주로 위젯이 부모 위젯 내에서 공간을 확장하도록 하는데 사용됩니다.
 #
